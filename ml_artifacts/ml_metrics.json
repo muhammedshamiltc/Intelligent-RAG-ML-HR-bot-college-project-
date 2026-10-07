@@ -1,0 +1,480 @@
+{
+  "dataset_size": 299,
+  "n_classes": 11,
+  "labels": [
+    "Code of Conduct",
+    "Company Profile",
+    "Compensation and Benefits",
+    "Employee Handbook",
+    "IT and Data Security",
+    "Leave",
+    "Onboarding and Separation",
+    "POSH",
+    "Performance",
+    "Travel and Expense",
+    "Work From Home"
+  ],
+  "class_counts": {
+    "Code of Conduct": 28,
+    "Company Profile": 27,
+    "Compensation and Benefits": 28,
+    "Employee Handbook": 27,
+    "IT and Data Security": 27,
+    "Leave": 27,
+    "Onboarding and Separation": 27,
+    "POSH": 27,
+    "Performance": 27,
+    "Travel and Expense": 27,
+    "Work From Home": 27
+  },
+  "train_size": 239,
+  "test_size": 60,
+  "best_C": 5,
+  "confidence_threshold": 0.3,
+  "accuracy": 0.6666666666666666,
+  "precision_weighted": 0.7009126984126984,
+  "recall_weighted": 0.6666666666666666,
+  "f1_weighted": 0.6608585858585858,
+  "precision_macro": 0.6937229437229436,
+  "recall_macro": 0.6727272727272727,
+  "f1_macro": 0.6607897153351698,
+  "cv5_accuracy_mean": 0.7089830508474576,
+  "cv5_accuracy_std": 0.03624037271131692,
+  "per_class": {
+    "Code of Conduct": {
+      "precision": 0.4,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.36363636363636365,
+      "support": 6.0
+    },
+    "Company Profile": {
+      "precision": 0.6,
+      "recall": 0.6,
+      "f1-score": 0.6,
+      "support": 5.0
+    },
+    "Compensation and Benefits": {
+      "precision": 0.6666666666666666,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.4444444444444444,
+      "support": 6.0
+    },
+    "Employee Handbook": {
+      "precision": 0.6,
+      "recall": 0.6,
+      "f1-score": 0.6,
+      "support": 5.0
+    },
+    "IT and Data Security": {
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1-score": 0.6666666666666666,
+      "support": 5.0
+    },
+    "Leave": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Onboarding and Separation": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 6.0
+    },
+    "POSH": {
+      "precision": 0.4,
+      "recall": 0.8,
+      "f1-score": 0.5333333333333333,
+      "support": 5.0
+    },
+    "Performance": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 6.0
+    },
+    "Travel and Expense": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1-score": 0.7272727272727273,
+      "support": 5.0
+    },
+    "Work From Home": {
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "f1-score": 0.8333333333333334,
+      "support": 5.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      3,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "confidence_analysis": [
+    {
+      "threshold": 0.15,
+      "kept": 0.9,
+      "accuracy_when_kept": 0.6851851851851852
+    },
+    {
+      "threshold": 0.2,
+      "kept": 0.7333333333333333,
+      "accuracy_when_kept": 0.7954545454545454
+    },
+    {
+      "threshold": 0.25,
+      "kept": 0.5333333333333333,
+      "accuracy_when_kept": 0.90625
+    },
+    {
+      "threshold": 0.3,
+      "kept": 0.48333333333333334,
+      "accuracy_when_kept": 0.9310344827586207
+    },
+    {
+      "threshold": 0.4,
+      "kept": 0.38333333333333336,
+      "accuracy_when_kept": 0.9565217391304348
+    },
+    {
+      "threshold": 0.5,
+      "kept": 0.2,
+      "accuracy_when_kept": 1.0
+    }
+  ],
+  "top_terms": {
+    "Code of Conduct": [
+      "code",
+      "report",
+      "media company",
+      "media",
+      "client",
+      "value"
+    ],
+    "Company Profile": [
+      "company",
+      "zyro",
+      "chief",
+      "founded",
+      "typical",
+      "dynamics"
+    ],
+    "Compensation and Benefits": [
+      "salary",
+      "bonus",
+      "insurance",
+      "ctc",
+      "allowance",
+      "hra"
+    ],
+    "Employee Handbook": [
+      "attendance",
+      "flexible",
+      "hours",
+      "working hours",
+      "benefits",
+      "working"
+    ],
+    "IT and Data Security": [
+      "password",
+      "data",
+      "laptop",
+      "personal",
+      "device",
+      "company laptop"
+    ],
+    "Leave": [
+      "leave",
+      "casual",
+      "taken",
+      "earned",
+      "earned leave",
+      "year"
+    ],
+    "Onboarding and Separation": [
+      "period",
+      "new",
+      "letter",
+      "exit",
+      "notice",
+      "notice period"
+    ],
+    "POSH": [
+      "complaint",
+      "harassment",
+      "inquiry",
+      "icc",
+      "posh",
+      "policy"
+    ],
+    "Performance": [
+      "promotion",
+      "review",
+      "pip",
+      "goals",
+      "performance",
+      "improvement"
+    ],
+    "Travel and Expense": [
+      "travel",
+      "expenses",
+      "trip",
+      "expense",
+      "international",
+      "approved"
+    ],
+    "Work From Home": [
+      "wfh",
+      "remote",
+      "home",
+      "remotely",
+      "work",
+      "working"
+    ]
+  },
+  "misclassified": [
+    {
+      "question": "What are examples of Internal classified information?",
+      "true": "IT and Data Security",
+      "predicted": "Code of Conduct"
+    },
+    {
+      "question": "Is discrimination based on religion or gender prohibited?",
+      "true": "Code of Conduct",
+      "predicted": "POSH"
+    },
+    {
+      "question": "How should workplace disagreements be handled?",
+      "true": "Code of Conduct",
+      "predicted": "IT and Data Security"
+    },
+    {
+      "question": "How much term life insurance does the company provide?",
+      "true": "Compensation and Benefits",
+      "predicted": "Company Profile"
+    },
+    {
+      "question": "Is vendor-sponsored domestic travel permitted?",
+      "true": "Code of Conduct",
+      "predicted": "Travel and Expense"
+    },
+    {
+      "question": "By which date must reports be approved to be paid in the same month's payroll?",
+      "true": "Travel and Expense",
+      "predicted": "Employee Handbook"
+    },
+    {
+      "question": "How do I request new software for my work machine?",
+      "true": "IT and Data Security",
+      "predicted": "Work From Home"
+    },
+    {
+      "question": "What are the different components of my remuneration?",
+      "true": "Compensation and Benefits",
+      "predicted": "Code of Conduct"
+    },
+    {
+      "question": "Are third-party contractors covered by the employee handbook?",
+      "true": "Employee Handbook",
+      "predicted": "Travel and Expense"
+    },
+    {
+      "question": "How much does the employer contribute to Provident Fund?",
+      "true": "Compensation and Benefits",
+      "predicted": "POSH"
+    },
+    {
+      "question": "Do I have to disclose a financial interest in a supplier?",
+      "true": "Code of Conduct",
+      "predicted": "Company Profile"
+    },
+    {
+      "question": "how many free counselling sessions does the EAP offer",
+      "true": "Compensation and Benefits",
+      "predicted": "POSH"
+    },
+    {
+      "question": "How do I submit my resignation?",
+      "true": "Onboarding and Separation",
+      "predicted": "POSH"
+    },
+    {
+      "question": "What does a rating of Meets Expectations mean?",
+      "true": "Performance",
+      "predicted": "POSH"
+    },
+    {
+      "question": "Which company assets must I return on my last working day?",
+      "true": "Onboarding and Separation",
+      "predicted": "Employee Handbook"
+    },
+    {
+      "question": "Can probation be extended?",
+      "true": "Onboarding and Separation",
+      "predicted": "Performance"
+    },
+    {
+      "question": "Is the Development Centre a physical office or distributed?",
+      "true": "Company Profile",
+      "predicted": "Compensation and Benefits"
+    },
+    {
+      "question": "Do interns and trainees get any benefit other than a stipend?",
+      "true": "Employee Handbook",
+      "predicted": "Code of Conduct"
+    },
+    {
+      "question": "What does the VP of Customer Success look after?",
+      "true": "Company Profile",
+      "predicted": "POSH"
+    },
+    {
+      "question": "What kind of conduct creates a hostile work environment?",
+      "true": "POSH",
+      "predicted": "Work From Home"
+    }
+  ]
+}
